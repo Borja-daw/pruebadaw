@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(196, 239, 250);
+}
+#icono{
+    height: 50px;
+    width: 50px;
+}
+.tit{
+    background-color: #639fb2;
+}
+#listth{
+    background-color: #5686b3;
+}
+#listtd{
+    background-color: #9ec4e9;
+}
+#leja{
+    background-color: #96d0e0;
+}
+#lejath{
+    background-color: #4f9fb3;
+}
+#datosleja{
+    background-color: #76c0d3;
+}
+#vacia{
+    background-color: rgb(243, 125, 125);
+}
+#est{
+    background-color: rgb(159, 241, 187);
+}
+#estth{
+    background-color: rgb(81, 163, 122);
+}
+#datosest{
+    background-color: rgb(114, 207, 156);
+}

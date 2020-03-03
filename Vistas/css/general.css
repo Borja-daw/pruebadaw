@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+}
+li{
+    float:left;
+    list-style:none;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+}
+a,select{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+a:hover{
+    background-color: #a5a1a1;
+}

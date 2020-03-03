@@ -1,0 +1,76 @@
+para que cambien los select option se le pone un onchange que haga una funcion de java script
+pasandole el value del option que es el id que pasas de la entanteria con php
+hacer el java script para que se ejecute en el otro select option con un get element by id
+$array lejas
+$arraylejasdisp hacer sql injection solo cuando vienen de un formulario
+en insertar caja si se pone el sql injection if($conexion->affected rows!=1)    
+
+controlador est libres
+abres sesion y vas a dao a una funcion que te dice las est libres en un array y se lo mandas a la vista
+select de estanterias con onchange que ejecute el js cargar lejas libres y pasas el this.value del option
+option es un foreach con las estanterias
+select lejas
+option con lejas ya cambiadas con el anterior onchange
+devolver un array con las que estan disp usando las que no estan disp y mirarlo con un for(i) if ino esta en arraynodisp entonces sale
+y pedirlas en el controlador
+numrows select
+affected rows con lo demas
+
+----Inventario----
+controlador inventario que llama a una funcion de dao que ordena
+include dao
+session start
+try
+$inventario=hacer funcion de dao
+$sesion inventario=$inventario
+header a la vista
+exit
+catch con excepcion
+
+-funcion listado inventario
+global conexion
+orden sql con un select id estanterioa cods material num lejas lejas ocup pasillo num id caja cod alt anch prof color todo
+hay que controlar que no se repita el codigo de est
+
+
+titulo con la fecha de hoy
+ordenar las estanterias por cod
+metes caja cuando el cod es dist de null
+1200px
+
+
+fase2
+tabla pasillo con id, pasillo y los huecos ocup
+cambio de letra a id pasillo
+ajaz pasillo hueco
+transacción
+
+fase3
+salida de cajas
+tabla backup donde se guardan antes de borra de la tabla normal
+tabla con todo lo de caja con est leja y fecha de baja
+clase caja backup herencia de caja
+borrar de ocupacion su fila correspondiente
+actualizar de estanteria las lejas ocup
+(borrar en caja, grabar en backup, borrar en ocup y actualizar est)
+triggers que haga todo al borrar
+mostrar caja backup ya que tiene la leja y est 
+
+
+fase 5 login
+
+tabla:
+id opcional primary
+usuario varchar de 10 unique
+contraseña varchar de 150
+
+si hay fila que sea login si no es registro 
+controlador que te manda a dao y este mira si hay filas en la bdd
+
+comprobar contraseña
+funcion en dao
+password_verify(contraseña,contra en bdd); esto en un if que mira si es correcta
+
+encriptacion: con hash
+password_hash(contraseña, PASSWORD_BCRYPT);
+
