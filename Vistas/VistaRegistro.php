@@ -14,7 +14,7 @@
         
         <form class="form-signin" name="registro" action="../Controladores/Registro.php" method="POST">
             <img class="mb-4" src="../Vistas/img/icon.png" alt="" width="72" height="72">
-            <h1 class="h3 mb-3 font-weight-normal">Registro</h1>
+            <h1 class="h3 mb-3 font-weight-normal">Registrar</h1>
             <br>
             <label for="usuario" class="sr-only">Usuario</label>
             <input type="text" name="usu" id="Usuario" class="form-control" placeholder="Usuario" required autofocus>
