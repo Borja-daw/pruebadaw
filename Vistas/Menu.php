@@ -22,7 +22,7 @@
             <!-- Sidebar  -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Almacen de Cajas </h3>
+                    <h3>Almacen de Cajas del Borjo :D</h3>
                     <img src="img/icon.png" id="icono">
                 </div>
 

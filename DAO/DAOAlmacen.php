@@ -636,5 +636,8 @@ class DAOAlmacen {
             throw new AlmacenException($mensaje, $codigo, $lugar);
         }
     }
-
+    
+    public function holaBorjo(){
+        return "Hola Borjo :D";
+    }
 }
