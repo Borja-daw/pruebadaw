@@ -638,6 +638,6 @@ class DAOAlmacen {
     }
     
     public function holaBorjo(){
-        return "Hola Borjo :D";
+        return "Hola Borja :D";
     }
 }
